@@ -11,4 +11,4 @@ The initial synthetic artifact has been published. Use this checklist for follow
 - [x] The full campaign regenerated 240 scenarios; the independent verifier replayed 1,200 policy decisions, 960 ablations, and 960 uncertainty decisions, plus 540 topology-control decisions.
 - [ ] Periodically review third-party dependency versions and advisories; preserve a tested tag/commit for each manuscript revision.
 - [ ] If a DOI or archived release is needed, create a versioned release and deposit only after rights review; do not commit the large generated scenario/decision directories to normal Git history.
-- [ ] Update the manuscript with the public repository URL and the commit/release identifier cited for the submission.
+- [x] Update the manuscript with the public repository URL and commit `acfc49ec83b6c73b7501e3cfb69b0798982fda1b`.
