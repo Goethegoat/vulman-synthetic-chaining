@@ -1,0 +1,32 @@
+{
+  "ablations": 960,
+  "networkx": "3.6.1",
+  "output_sha256": {
+    "ablation_table.tex": "987abe9fa2f1198a72e8af9933868d70980dc11fb0428587aebf970226f415d6",
+    "ablations.json": "612108c4c85ba13d49efd813c486e28a593d059477eb77c9e1916e5ad9b2c79f",
+    "policy_runs.json": "e7f3f3fb7793ed8e876a143dbabc536998f51700ceb95ddefd6f25e3e4dada5a",
+    "policy_table.tex": "a481798f46541e914eb7e1012963d87f0bad1e03a9cd8d9feb7eb89f1e382aff",
+    "scaling.json": "be9e9e46008558b93f4a288f513dcf8622fa1af62f8ba8c9d023e3b8292269a2",
+    "scaling_table.tex": "e2757cebbd75dec08415df25c1cb5032f386eb77207748cddeabf2e19d44bd26",
+    "scenarios.json": "cee36deb59711627cc52496b8513843f88ff35ab002a74a06cfe6d8c52b48dd9",
+    "summary.json": "d1a456c8e3f30dd6d6878913924dae9eef9f0a6acd7b0da851c2f6fe1e2ba071",
+    "uncertainty.json": "c7fe8d1079171c8e9fb30a91d6bb1a6136338d3e043d9319aeb5860828880ac2",
+    "uncertainty_table.tex": "e4512c44399bce62bf7aacf489fa5eae5ae280a3f6241dad4585dbf21b943ae3"
+  },
+  "platform": "Windows-11-10.0.22631-SP0",
+  "policy_records": 1200,
+  "python": "3.13.14",
+  "repeats": 3,
+  "scaling_runs": 9,
+  "scenarios": 240,
+  "seeds": 20,
+  "source_sha256": {
+    "multiscale_chaining.py": "b226b4e08f06de97713b7634758855d0b4a1b0c196245b2dd2990f79d49601b4",
+    "run_multiscale_experiments.py": "21defc754b37bdb61fa7d6e5e81ccba6f872728861bb74289f268612a6c86228",
+    "test_multiscale_chaining.py": "df3ca69b79e0451c3118264d7037151872e8d68d2e3f636cf3b02d7f98a75d9e"
+  },
+  "synthetic_only": true,
+  "timed_executions": 3600,
+  "timestamp_utc": "2026-09-17T14:07:43.923815+00:00",
+  "uncertainty_decisions": 960
+}

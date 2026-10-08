@@ -1,0 +1,38 @@
+﻿{
+    "artifact":  "VulMan synthetic chaining reproduction package",
+    "data_origin":  "synthetic_only",
+    "canonical_campaign":  {
+                               "timestamp_utc":  "2026-09-17T14:07:43.923815+00:00",
+                               "python":  "3.13.14",
+                               "networkx":  "3.6.1",
+                               "scenarios":  240,
+                               "policy_records":  1200,
+                               "timed_executions":  3600,
+                               "ablations":  960,
+                               "uncertainty_decisions":  960,
+                               "source_sha256":  {
+                                                     "multiscale_chaining.py":  "b226b4e08f06de97713b7634758855d0b4a1b0c196245b2dd2990f79d49601b4",
+                                                     "run_multiscale_experiments.py":  "21defc754b37bdb61fa7d6e5e81ccba6f872728861bb74289f268612a6c86228",
+                                                     "test_multiscale_chaining.py":  "df3ca69b79e0451c3118264d7037151872e8d68d2e3f636cf3b02d7f98a75d9e"
+                                                 }
+                           },
+    "included_compact_files_sha256":  {
+                                          "ablation_table.tex":  "987abe9fa2f1198a72e8af9933868d70980dc11fb0428587aebf970226f415d6",
+                                          "policy_table.tex":  "a481798f46541e914eb7e1012963d87f0bad1e03a9cd8d9feb7eb89f1e382aff",
+                                          "scaling_table.tex":  "e2757cebbd75dec08415df25c1cb5032f386eb77207748cddeabf2e19d44bd26",
+                                          "summary.json":  "d1a456c8e3f30dd6d6878913924dae9eef9f0a6acd7b0da851c2f6fe1e2ba071",
+                                          "uncertainty_table.tex":  "e4512c44399bce62bf7aacf489fa5eae5ae280a3f6241dad4585dbf21b943ae3",
+                                          "random_tag_smoke.json":  "114ce1e61715b4e6a5a900a5a63d3fc494ed901f43b31529008373cce8460998"
+                                      },
+    "large_generated_scenario_and_decision_files":  "omitted_from_git; regenerate with run_multiscale_experiments.py",
+    "synthetic_results_and_docs_license":  "CC-BY-NC-4.0",
+    "package_source_sha256":  {
+                                  "multiscale_chaining.py":  "1d92f29ca49a81ed1868f0a942301fdd57851a7d223c2bee437180ff383c8e42",
+                                  "run_multiscale_experiments.py":  "659354852c5dcb8ef5d01e43edf964012e96132c24f2ea49f8c53a40fce2b7b6",
+                                  "verify_multiscale.py":  "bf306aac550620697bd329b9fcba0130b349c1f42a8bc095ad426434d000c3f8",
+                                  "test_multiscale_chaining.py":  "df3ca69b79e0451c3118264d7037151872e8d68d2e3f636cf3b02d7f98a75d9e",
+                                  "run_synthetic_tag_smoke.py":  "a519b6ba54fee70c5de754c99c1a1bee298758035f917a955d642edddc246354"
+                              },
+    "code_license":  "PolyForm-Noncommercial-1.0.0",
+    "docs_data_license":  "CC-BY-NC-4.0"
+}

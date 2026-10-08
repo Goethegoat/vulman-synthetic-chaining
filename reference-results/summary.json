@@ -1,0 +1,162 @@
+[
+  {
+    "actions": 34.11666666666667,
+    "budget_residual_fraction": 0.436037049454169,
+    "cost": 190.25,
+    "family": "server",
+    "off_target": 12.516666666666667,
+    "policy": "severity"
+  },
+  {
+    "actions": 28.9,
+    "budget_residual_fraction": 0.3625552398989899,
+    "cost": 160.75,
+    "family": "server",
+    "off_target": 10.25,
+    "policy": "signal"
+  },
+  {
+    "actions": 14.85,
+    "budget_residual_fraction": 0.013454861111111112,
+    "cost": 36.583333333333336,
+    "family": "server",
+    "off_target": 5.033333333333333,
+    "policy": "context_cost"
+  },
+  {
+    "actions": 23.2,
+    "budget_residual_fraction": 0.05234375,
+    "cost": 85.51666666666667,
+    "family": "server",
+    "off_target": 0,
+    "policy": "relevant_cost"
+  },
+  {
+    "actions": 2.0833333333333335,
+    "budget_residual_fraction": 0.0,
+    "cost": 8.1,
+    "family": "server",
+    "off_target": 0,
+    "policy": "separator"
+  },
+  {
+    "actions": 30.15,
+    "budget_residual_fraction": 0.3803647353321947,
+    "cost": 164.1,
+    "family": "environment",
+    "off_target": 13.733333333333333,
+    "policy": "severity"
+  },
+  {
+    "actions": 27.7,
+    "budget_residual_fraction": 0.37272198631087783,
+    "cost": 152.21666666666667,
+    "family": "environment",
+    "off_target": 11.7,
+    "policy": "signal"
+  },
+  {
+    "actions": 14.316666666666666,
+    "budget_residual_fraction": 0.019412105119825707,
+    "cost": 35.56666666666667,
+    "family": "environment",
+    "off_target": 6.016666666666667,
+    "policy": "context_cost"
+  },
+  {
+    "actions": 17.2,
+    "budget_residual_fraction": 0.013108552631578948,
+    "cost": 53.266666666666666,
+    "family": "environment",
+    "off_target": 0,
+    "policy": "relevant_cost"
+  },
+  {
+    "actions": 1.9,
+    "budget_residual_fraction": 0.0,
+    "cost": 6.483333333333333,
+    "family": "environment",
+    "off_target": 0,
+    "policy": "separator"
+  },
+  {
+    "actions": 29.766666666666666,
+    "budget_residual_fraction": 0.38240448013872247,
+    "cost": 166.65,
+    "family": "network",
+    "off_target": 13,
+    "policy": "severity"
+  },
+  {
+    "actions": 34,
+    "budget_residual_fraction": 0.42371008827430223,
+    "cost": 190.98333333333332,
+    "family": "network",
+    "off_target": 15.25,
+    "policy": "signal"
+  },
+  {
+    "actions": 15.95,
+    "budget_residual_fraction": 0.017499999999999998,
+    "cost": 40.21666666666667,
+    "family": "network",
+    "off_target": 6.666666666666667,
+    "policy": "context_cost"
+  },
+  {
+    "actions": 18.816666666666666,
+    "budget_residual_fraction": 0.018917239161804378,
+    "cost": 63.56666666666667,
+    "family": "network",
+    "off_target": 0,
+    "policy": "relevant_cost"
+  },
+  {
+    "actions": 1.9166666666666667,
+    "budget_residual_fraction": 0.0,
+    "cost": 7.683333333333334,
+    "family": "network",
+    "off_target": 0,
+    "policy": "separator"
+  },
+  {
+    "actions": 29.983333333333334,
+    "budget_residual_fraction": 0.35717761059930914,
+    "cost": 167.36666666666667,
+    "family": "mixed",
+    "off_target": 12.783333333333333,
+    "policy": "severity"
+  },
+  {
+    "actions": 30.183333333333334,
+    "budget_residual_fraction": 0.33437163402076064,
+    "cost": 165.01666666666668,
+    "family": "mixed",
+    "off_target": 13.183333333333334,
+    "policy": "signal"
+  },
+  {
+    "actions": 16.433333333333334,
+    "budget_residual_fraction": 0.02359187109187109,
+    "cost": 41.016666666666666,
+    "family": "mixed",
+    "off_target": 6.45,
+    "policy": "context_cost"
+  },
+  {
+    "actions": 19.283333333333335,
+    "budget_residual_fraction": 0.017881944444444443,
+    "cost": 64.18333333333334,
+    "family": "mixed",
+    "off_target": 0,
+    "policy": "relevant_cost"
+  },
+  {
+    "actions": 2.1,
+    "budget_residual_fraction": 0.0,
+    "cost": 7.883333333333334,
+    "family": "mixed",
+    "off_target": 0,
+    "policy": "separator"
+  }
+]

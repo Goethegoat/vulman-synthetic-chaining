@@ -1,0 +1,41 @@
+{
+  "data_origin": "generated_synthetic_only_no_enterprise_database_read",
+  "purpose": "software_smoke_test_not_semantic_or_field_validation",
+  "seed_start": 20261008,
+  "seed_count": 50,
+  "synthetic_assets": 300,
+  "synthetic_occurrences": 600,
+  "candidate_transition_statuses": {
+    "supported": 398,
+    "incompatible": 130,
+    "unknown": 122
+  },
+  "candidate_scope_counts": {
+    "server": 50,
+    "environment": 100,
+    "routed": 450,
+    "network": 50
+  },
+  "probe_route_evidence_by_dc_relation": {
+    "cross_dc:supported": 66,
+    "cross_dc:incompatible": 69,
+    "cross_dc:unknown": 65,
+    "same_dc:supported": 32,
+    "same_dc:incompatible": 11,
+    "same_dc:unknown": 7
+  },
+  "lower_graph_edges_total": 398,
+  "upper_graph_edges_total": 520,
+  "unknown_branch_retained_in_upper_all_runs": true,
+  "known_blocked_branch_excluded_all_runs": true,
+  "all_upper_separators_disconnect_entry_from_target": true,
+  "all_runs_have_four_synthetic_datacenters": true,
+  "all_runs_have_five_synthetic_networks": true,
+  "mean_synthetic_separator_cost": 2.88,
+  "limitations": [
+    "Hostname, data-center tags, and connectivity are generated, not observed.",
+    "A shared data center changes synthetic route-generation probabilities but never proves a route.",
+    "Capabilities are planted to exercise known model transitions.",
+    "The run does not evaluate the enterprise snapshot or provide empirical ground truth."
+  ]
+}
