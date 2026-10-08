@@ -69,4 +69,4 @@ The full multiscale runner currently exposes only the canonical 20-seed-per-fami
 
 ## Release Status
 
-The included license files designate PolyForm Noncommercial 1.0.0 for source code and CC BY-NC 4.0 for documentation and generated synthetic results. These are noncommercial permissions, not OSI-approved open-source licensing. This folder is prepared locally but has not been published to GitHub. Confirm that the author and CIFRE rights-holders approve these exact license terms, complete `RELEASE_CHECKLIST.md`, and only then make the repository public. Do not include the separate pseudonymized database or the database-pseudonymization utility.
+The repository is public at https://github.com/Goethegoat/vulman-synthetic-chaining. Source code is designated under PolyForm Noncommercial 1.0.0; documentation and synthetic results are designated under CC BY-NC 4.0. These are noncommercial permissions, not OSI-approved open-source licensing. The repository contains only the synthetic artifact; it does not include the separate pseudonymized database or its preparation utility. See `RELEASE_CHECKLIST.md` for post-publication rights and maintenance checks.
